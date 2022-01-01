@@ -1,20 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     position: relative;
     min-height: 100vh;
     font-family: 'Merriweather', serif;
-    overflow: ;
 }
 
 #main {
     background-color: #FAAAAA;
-    padding: 40px 150px 75px 25px;
     margin: 25px 5px;
     display: flex;
     flex-direction: column;
 }
 
 #title {
-    font-weight: bold;
     text-align: center;
 }
 
@@ -23,18 +24,44 @@ body {
 }
 
 #image {
-    width: 600px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 75px;
-    flex: 1 1 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    
 }
 
 #img-div {
     background-color: white;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    align-items: center;
+    margin: 0 25px;
+    padding: 15px 30px;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.facts-title {
+    text-align: center;
+}
+
+.facts-list {
+    padding: 0px 150px;
+}
+
+.quote {
+    padding: 0px 150px;
+    font-style: italic;
+}
+
+.reference-link {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+li {
 }
